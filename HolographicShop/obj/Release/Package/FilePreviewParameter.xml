@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HolographicShop" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\georg_000\\Desktop\\georgia's\ visual\ studio\\HolographicShop\\HolographicShop\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\georg_000\\Desktop\\georgia's\ visual\ studio\\HolographicShop\\HolographicShop\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="" value="data source=holographicserver.database.windows.net;initial catalog=holographic_shop;persist security info=True;user id=holoAdmin;password=LightBuzz2012;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\georg_000\\Desktop\\georgia's\ visual\ studio\\HolographicShop\\HolographicShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
