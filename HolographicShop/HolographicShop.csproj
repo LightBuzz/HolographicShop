@@ -198,10 +198,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CartManagementController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="DataObjects\Cart.cs" />
     <Compile Include="DataObjects\Category.cs" />
     <Compile Include="DataObjects\Product.cs" />
+    <Compile Include="DataObjects\ProductInCart.cs" />
     <Compile Include="Migrations\201706080916471_AddThumbnailToCategory.cs" />
     <Compile Include="Migrations\201706080916471_AddThumbnailToCategory.Designer.cs">
       <DependentUpon>201706080916471_AddThumbnailToCategory.cs</DependentUpon>
@@ -209,6 +213,22 @@
     <Compile Include="Migrations\201706081056128_AddModelToCategory.cs" />
     <Compile Include="Migrations\201706081056128_AddModelToCategory.Designer.cs">
       <DependentUpon>201706081056128_AddModelToCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706191529211_AddCart.cs" />
+    <Compile Include="Migrations\201706191529211_AddCart.Designer.cs">
+      <DependentUpon>201706191529211_AddCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706191611320_AddProductInCart.cs" />
+    <Compile Include="Migrations\201706191611320_AddProductInCart.Designer.cs">
+      <DependentUpon>201706191611320_AddProductInCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706191815301_AddQuantity.cs" />
+    <Compile Include="Migrations\201706191815301_AddQuantity.Designer.cs">
+      <DependentUpon>201706191815301_AddQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706200250097_AddKeys.cs" />
+    <Compile Include="Migrations\201706200250097_AddKeys.Designer.cs">
+      <DependentUpon>201706200250097_AddKeys.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MobileServiceContext.cs" />
@@ -243,6 +263,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706081056128_AddModelToCategory.resx">
       <DependentUpon>201706081056128_AddModelToCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706191529211_AddCart.resx">
+      <DependentUpon>201706191529211_AddCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706191611320_AddProductInCart.resx">
+      <DependentUpon>201706191611320_AddProductInCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706191815301_AddQuantity.resx">
+      <DependentUpon>201706191815301_AddQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706200250097_AddKeys.resx">
+      <DependentUpon>201706200250097_AddKeys.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -36,5 +36,10 @@ namespace HolographicShop.Models
         public System.Data.Entity.DbSet<HolographicShop.DataObjects.Category> Categories { get; set; }
 
         public System.Data.Entity.DbSet<HolographicShop.DataObjects.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<HolographicShop.DataObjects.Cart> Carts { get; set; }
+
+        public System.Data.Entity.DbSet<HolographicShop.DataObjects.ProductInCart> ProductsInCarts { get; set; }
+
     }
 }

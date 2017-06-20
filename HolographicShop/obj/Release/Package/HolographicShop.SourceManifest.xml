@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <DbDacFx path="C:\Users\georg_000\Desktop\georgia's visual studio\HolographicShop\HolographicShop\obj\Release\AutoScripts\MS_TableConnectionString_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
-  <IisApp path="C:\Users\georg_000\Desktop\georgia's visual studio\HolographicShop\HolographicShop\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\georg_000\Desktop\georgia's visual studio\HolographicShop\HolographicShop\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\georg_000\Desktop\georgia's visual studio\HolographicShop\HolographicShop\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <DbDacFx path="C:\Users\georg_000\Desktop\georgia's visual studio\Holoshop\HolographicShop\obj\Release\AutoScripts\MS_TableConnectionString_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+  <IisApp path="C:\Users\georg_000\Desktop\georgia's visual studio\Holoshop\HolographicShop\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\georg_000\Desktop\georgia's visual studio\Holoshop\HolographicShop\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\georg_000\Desktop\georgia's visual studio\Holoshop\HolographicShop\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

@@ -9,7 +9,7 @@ namespace HolographicShop.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(HolographicShop.Models.MobileServiceContext context)
